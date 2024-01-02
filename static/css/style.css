@@ -1,0 +1,118 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+    padding: 5px;
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.nav-list li {
+    margin: 0 15px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.nav-list li a:hover {
+    color: #ddd;
+}
+
+
+
+.registration-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#middlepart {
+    display: flex;
+    margin: 20px
+}
+
+#sidebar {
+    margin-right: 40px
+}
+
+
+/* Flex Table Styles */
+.flex-table {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    /* adjust as needed */
+    margin: 50px auto;
+    /* centers the table horizontally */
+    border: 1px solid black;
+}
+
+.flex-row {
+    display: flex;
+}
+
+.flex-cell {
+    flex: 1;
+    /* equally distribute space among cells in a row */
+    padding: 8px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.header .flex-cell {
+    font-weight: bold;
+    background-color: #e0e0e0;
+}
+
+/* Extra Styling for better visualization */
+body {
+    font-family: Arial, sans-serif;
+}
